@@ -245,7 +245,7 @@ opacity: 0.9%;
   display: grid;
   grid-template-columns: 1fr;
 gap: 1.5em;
-padding: 1.5em;
+padding: 1.5em 0;
 }
 .menu-item-image{
   width: 80px;
@@ -264,11 +264,11 @@ padding: 1.5em;
   margin: 0;
  }
  .menu-item-name{
-  margin-right: 1.5em 0;
+  margin-right: 1.5em;
  }
 
 .menu-item-description{
-  line-height: 1.6em;
+  line-height: 1.6;
 }
 
 @media screen and (min-width: 992px){
