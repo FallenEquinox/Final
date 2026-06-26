@@ -1,8 +1,6 @@
 /* Reset */
 *{
 margin: 0;
-padding: 0;
-box-sizing: border-box;
 }
 
 /*Main Styling*/
@@ -33,6 +31,8 @@ padding: 0 20px;
 
 .text-primary{
 color: darkkhaki;
+text-align: right;
+text-align: left;
 }
 
 .lead{
@@ -67,6 +67,7 @@ color: #266812;
 .bg-primary{
   background: seagreen;
   color: #F0E2B6;
+  border-radius: 2%;
 }
 
 .clr{
@@ -191,7 +192,11 @@ line-height: 1.7em;
   width: auto;
   min-height: 100%;
 }
-
+.lined{
+  align-items: center;
+  padding: 0px;
+  float: right 20px; 
+}
 /*Test on my monials*/
 
 #testimonials{
@@ -213,11 +218,11 @@ border-radius: 5px;
 opacity: 0.9%;
 }
 
-#testimonials .testimonial img{
+.testimonials-img{
   width: 100px;
   float: left;
   margin-right: 20px;
-  border-radius: 50%;
+  border-radius: 50%
 }
 
 /*footer*/
@@ -293,5 +298,18 @@ padding: 1.5em 0;
   
 body{
 background: #F0E2B6;
+}
+
+img{
+  border-radius: 50%;
+}
+.theheading{
+color: sienna;
+text-align: center;
+
+}
+.lined{
+  text-align: center;
+  color: #266812;
 }
 
