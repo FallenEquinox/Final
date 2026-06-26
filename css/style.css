@@ -312,4 +312,11 @@ text-align: center;
   text-align: center;
   color: #266812;
 }
-
+.lure{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.float{
+  text-align: center;
+}
